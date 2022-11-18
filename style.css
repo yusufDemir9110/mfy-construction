@@ -38,6 +38,17 @@ body {
 
 .nav div.logo {
     padding: 0.6rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.logo a{
+    color: var(--color-darkblue);
+    margin-left:0.5rem;
+}
+.logo a:hover {
+    color: var(--color-green);
+    text-decoration: none;
 }
 
 #topLogo{
@@ -293,7 +304,10 @@ textarea{
     padding: 1rem 2rem;
 }
 
-
+.paradise{
+    color:var(--color-green);
+    text-decoration: underline;
+}
 
 
 
@@ -342,7 +356,7 @@ textarea{
 
 
 
-#choose1{
+.choose1{
     margin-top:20px;
     width:100%;
     text-align:center  !important;
